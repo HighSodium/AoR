@@ -81,18 +81,15 @@ public class CloneMovementPlayback : PhysicsObject
         move.x = velX;
         
         if (jumpDown && grounded){
-            jumpDown = false;
             velocity.y = jumpTakeOffSpeed;        
         }
-        else if (jumpUp){
-            jumpUp = false;
+        else if (jumpUp){          
             if (velocity.y > 0)
             {
                 velocity.y *= 0.5f;
-            }
-            
+            }          
         }
-
+        jumpDown = jumpUp = false;
         if (move.x > 0.01f)
         {
             if (spriteRenderer.flipX == true)
