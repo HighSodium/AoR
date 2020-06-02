@@ -90,6 +90,7 @@ public class CloneMovementPlayback : PhysicsObject
             }          
         }
         jumpDown = jumpUp = false;
+
         if (move.x > 0.01f)
         {
             if (spriteRenderer.flipX == true)

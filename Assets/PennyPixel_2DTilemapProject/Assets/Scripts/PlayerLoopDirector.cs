@@ -58,12 +58,6 @@ public class PlayerLoopDirector : MonoBehaviour
 
             foreach (OrderedDictionary moves in RecordList){
                 CreateClone(moves);
-
-                //for each movement command
-                foreach(DictionaryEntry entry in moves)
-                {
-                    //print(entry.Key + " --> " + entry.Value);
-                }
             }
         }
     }
