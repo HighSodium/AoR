@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Clones
+  - PlayerItem
+  - CloneItem
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Backdrop
+    uniqueID: 1784620117
+    locked: 0
+  - name: Background
+    uniqueID: 3218450129
+    locked: 0
+  - name: Platforms
+    uniqueID: 2975205413
+    locked: 0
+  - name: Clones
+    uniqueID: 2587403423
+    locked: 0
+  - name: Player
+    uniqueID: 940663929
+    locked: 0
+  - name: Foreground
+    uniqueID: 446465013
+    locked: 0
