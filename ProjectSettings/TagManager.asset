@@ -50,6 +50,9 @@ TagManager:
   - name: Platforms
     uniqueID: 2975205413
     locked: 0
+  - name: Interactables
+    uniqueID: 2447839445
+    locked: 0
   - name: Clones
     uniqueID: 2587403423
     locked: 0

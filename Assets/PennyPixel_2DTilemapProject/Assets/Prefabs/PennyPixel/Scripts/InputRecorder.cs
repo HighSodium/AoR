@@ -39,7 +39,7 @@ public class InputRecorder : MonoBehaviour
             LogInputs();
             if(input != null)
             {
-                print(input);              
+                //print(input);              
                 playerMovements.Add(curTime, input);
             }
         }
@@ -83,7 +83,7 @@ public class InputRecorder : MonoBehaviour
 
     private void AddMove(string moveName)
     {
-        print(moveName);
+        //print(moveName);
         if(playerMovements.Contains(curTime))
             playerMovements.Add(curTime + 0.001, moveName);
         else
